@@ -47,7 +47,7 @@ input,
 textarea,
 input:active,
 textarea:active,
-button
+button, select
 {
     margin: 0;
 
@@ -450,7 +450,6 @@ header
     font-weight: 500;
     line-height: 17px;
 
-    width: max-content;
     margin-bottom: 15px;
     padding: 14px 17px;
 
@@ -553,7 +552,7 @@ input[type='search']::-webkit-search-cancel-button
 {
     position: relative;
 
-    margin: 19px 0;
+    margin: 19px 0 0;
     padding: 18px 36px 18px 18px;
 
     border-radius: 15px;
@@ -920,4 +919,5 @@ input[type='time']::-webkit-calendar-picker-indicator
 
 .location_link_addition{
     display: none;
+    margin-top: 19px;
 }
