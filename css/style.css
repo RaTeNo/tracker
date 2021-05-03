@@ -921,3 +921,13 @@ input[type='time']::-webkit-calendar-picker-indicator
     display: none;
     margin-top: 19px;
 }
+
+.greeting_link-more a.prev{
+    border: 2px solid red;
+    color:red;
+    margin-right: 10px;
+}
+
+.location_link_addition a{
+    display: none;
+}
