@@ -119,7 +119,6 @@ header
 {
     display: flex;
 
-    width: 565px;
 
     justify-content: space-between;
 }
@@ -906,10 +905,15 @@ input[type='time']::-webkit-calendar-picker-indicator
 	display: none;
 }
 
-.question_wrap{
+.prewrap{
     width: 50%;
+}
+
+.question_wrap{
     position: relative;
     display: none;
+    margin-bottom:20px;
+
 }
 
 .location_unwrap{
@@ -930,4 +934,5 @@ input[type='time']::-webkit-calendar-picker-indicator
 
 .location_link_addition a{
     display: none;
+    background: #6a54c3;
 }

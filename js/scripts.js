@@ -153,5 +153,11 @@ $(document).ready(function(){
 	});
 
 
-
+	$('.input_search').on('input', function(e) {
+	    if('' == this.value) {
+	    	$(".location_link_addition").hide();
+	    }
+	});
 });
+
+
