@@ -162,7 +162,6 @@ header
 }
 .header_call
 {
-    margin-left: auto;
 }
 .header_call a
 {
@@ -934,4 +933,78 @@ input[type='time']::-webkit-calendar-picker-indicator
 .location_link_addition a{
     display: none;
     background: #6a54c3;
+}
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.43);
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+    white-space: nowrap;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.info{
+    margin-left:auto;
+    margin-right: 15px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+
+.info .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.48;
+    margin-bottom: 5px;
 }
